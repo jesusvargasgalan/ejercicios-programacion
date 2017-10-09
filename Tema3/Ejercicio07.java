@@ -27,10 +27,11 @@ public class Ejercicio07 {
     double baseImponible = teclado.nextDouble();
     
     
-    double facturatotal=factura % baseImponible;
+    double facturatotal = factura % baseImponible;
     
     
     System.out.println("El precio a pagar sera de "+(facturatotal+factura)+" €");
+    
 	}
 }
 
