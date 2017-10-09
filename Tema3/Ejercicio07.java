@@ -32,6 +32,6 @@ public class Ejercicio07 {
     
     System.out.println("El precio a pagar sera de "+(facturatotal+factura)+" €");
     
-	}
+  }
 }
 
