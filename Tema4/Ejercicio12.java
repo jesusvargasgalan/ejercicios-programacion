@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
- * Ejercicio01.java
+ * Ejercicio012.java
  * 
  * Jesus Vargas Galan
  * 
