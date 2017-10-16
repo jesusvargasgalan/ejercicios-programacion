@@ -14,34 +14,22 @@
 import java.util.Scanner;
 public class Ejercicio04 {
 
-	
+	public static void main(String[] args) {
+			
+			
+	Scanner teclado = new Scanner(System.in);
+			
+	int sueldoSemanal;
 
-
-		public static void main(String[] args) {
-			
-			
-			Scanner teclado = new Scanner(System.in);
-			
-			
-			System.out.println("Cuantas horas trabajas al dia");
-			int horas = teclado.nextInt();
-			
-			
-			System.out.println("Cuantos dias trabajas a la semana");
-			int dias = teclado.nextInt();
-			
-			double cobroTotal= horas * 12 * dias;
-			
-			
-			if((horas * dias) >= 41) {
-				System.out.println("Eres apto al plus por trabajar mas de 41 horas");
-				System.out.println("Cobraras "+(horas * 16 * dias)+ " €");
-			}
-			else
-			{
-			System.out.println("Cobraras " +(horas * 12 * dias) + " €");
-			}
-			
-		}
-
-	}
+        System.out.print("Por favor, introduzca el número de horas trabajadas durante la semana: ");
+        int horasTrabajadas = Integer.parseInt(System.console().readLine());
+    
+        if (horasTrabajadas < 40) {
+        sueldoSemanal = 12 * horasTrabajadas;
+        } else 
+	{
+        sueldoSemanal = (40 * 12) + ((horasTrabajadas - 40) * 16);    
+        }
+        System.out.println("El sueldo semanal que le corresponde es de " + sueldoSemanal + " euros");
+  }
+}
