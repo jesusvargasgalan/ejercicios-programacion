@@ -21,11 +21,11 @@ public class Ejercicio02 {
 		System.out.println("--------------");
 		
 		while(numero <= 100){
-			if((numero % 5) == 0){
-				System.out.print(numero + " - ");
+			
+		System.out.print(numero + " - ");
 				
-			numero+=5;
-			}
+		numero+=5;
+			
 		}
 	}
 
