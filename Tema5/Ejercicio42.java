@@ -7,7 +7,7 @@
    muestre a continuación los 5 números consecutivos a partir del número
    troducido. Al lado de cada número se debe indicar si se trata de un primo o
    no.
- * 
+ * Revisarlo
  * 
  */
 
