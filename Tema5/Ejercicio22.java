@@ -13,7 +13,7 @@ public class Ejercicio22 {
 
   
   Scanner teclado = new Scanner(System.in);
-  
+  /* */
   for(int f = 2; f <= 100;f++){
     if(f % 1 == 0 && f % f == 0 && f % 2 !=0){
       System.out.print(f + (" "));
