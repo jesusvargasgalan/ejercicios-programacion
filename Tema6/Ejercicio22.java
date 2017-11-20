@@ -25,8 +25,7 @@ public class Ejercicio22 {
 
       int serpenteo = (int) (Math.random() * 3);
       if ((serpenteo == 0) || (serpenteo == 2)) {
-        System.out.print(
-            "             ");/*
+        System.out.print( "             ");/*
                               * Pinta los 13 espacios para cada parte del cuerpo
                               */
       } else {
