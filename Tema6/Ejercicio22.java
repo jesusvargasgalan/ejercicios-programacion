@@ -19,8 +19,7 @@ public class Ejercicio22 {
     int longitud = teclado.nextInt();
     teclado.nextLine();
 
-    System.out
-        .print("             "); /* Pinta los 13 espacios para la cabeza */
+    System.out.print("             "); /* Pinta los 13 espacios para la cabeza */
     System.out.println("@");
     for (int f = 0; f < longitud; f++) {
 
