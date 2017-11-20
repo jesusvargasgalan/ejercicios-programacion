@@ -13,7 +13,15 @@ public class Ejercicio22 {
 
     Scanner teclado = new Scanner(System.in);
 
-    String serpiente = " ";
+   import java.util.Scanner;
+
+public class Ejercicio22 {
+
+  public static void main(String[] args) {
+
+    Scanner teclado = new Scanner(System.in);
+
+    
 
     System.out.println("Introduce la longitud de la serpiente");
     int longitud = teclado.nextInt();
@@ -21,37 +29,17 @@ public class Ejercicio22 {
 
     System.out.print("             "); /* Pinta los 13 espacios para la cabeza */
     System.out.println("@");
+    
+    int espacios = 13;
     for (int f = 0; f < longitud; f++) {
 
-      int serpenteo = (int) (Math.random() * 3);
-      if ((serpenteo == 0) || (serpenteo == 2)) {
-        System.out.print( "             ");/*
-                              * Pinta los 13 espacios para cada parte del cuerpo
-                              */
-      } else {
-        System.out.print("            ");/*
-                                          * Aqui pinta 12 espacios para que se
-                                          * situe a la izquierda del centro
-                                          */
-      }
-
-      switch (serpenteo) {
-      case 0:
-        serpiente = "*";
-        break;
-      case 1:
-        serpiente = "*";
-        break;
-      case 2:
-        serpiente = " *";
-        break;
-      default:
-        serpiente = String.valueOf(serpenteo);
-      }
-      System.out.println(serpiente);
-
+      espacios += (int) (Math.random() * 3) - 1;
+      
+    for(int j = 0; j < espacios; j++){
+      System.out.print(" ");
+     }
+    System.out.println("*");
+    
     }
-
-  }
-
-}
+    }
+    }
