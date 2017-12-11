@@ -7,8 +7,8 @@ public class Ejercicio02 {
     int f = 0;
     int c = 0;
     int sumaFilas = 0;
-    int auxFilas = 0;
-    int auxColumnas = 0;
+   
+   
 
     for (f = 0; f < 4; f++) {
       for (c = 0; c < 5; c++) {
