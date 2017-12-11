@@ -1,4 +1,7 @@
-
+/*Ejercicio02.java
+  
+  Jesus Vargas Galan
+*/
 public class Ejercicio02 {
 
   public static void main(String[] args) {
