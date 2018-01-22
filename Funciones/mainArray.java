@@ -19,8 +19,8 @@ public class mainArray {
    System.out.println("Se mostrará el array rotado");
    Array.Arrays.volteaArrayInt(n);
    System.out.println();
-    System.out.println(Array.Arrays.rotaDerechaArrayInt(n, 20));
-    System.out.println(Array.Arrays.rotaIzquierdaArrayInt(n, 5));
+   System.out.println(Array.Arrays.rotaDerechaArrayInt(n, 20));
+   System.out.println(Array.Arrays.rotaIzquierdaArrayInt(n, 5));
   
   }
   }
