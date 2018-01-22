@@ -1,3 +1,7 @@
+/*
+  Jesus Vargas Galan 20-28
+*/
+
 package clasePrincipalArrays;
 
 public class mainArray {
