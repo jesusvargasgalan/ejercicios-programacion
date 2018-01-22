@@ -6,10 +6,9 @@ package funciones;
 public class funcionesMatematicas {
 
   /**
-   * Da la vuelta a un número.
+   * Da la vuelta a un nÃºmero.
    *
-   * @param n
-   *          un número entero positivo
+   * @param n un nÃºmero entero positivo
    * @return n dado la vuelta
    */
   public static int voltea(int n) {
@@ -26,11 +25,10 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Comprueba si el número es capicua. Un numero es capicua si se lee igual de
+   * Comprueba si el nÃºmero es capicua. Un numero es capicua si se lee igual de
    * izquierda a derecha que derecha a izquierda
    * 
-   * @param a
-   *          un número entero positivo
+   * @param a un nÃºmero entero positivo
    * @return True Numero capicuo
    * @return False Numero no capicuo
    */
@@ -49,12 +47,11 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Comprueba si un número entero positivo es primo o no. Un número es primo
-   * cuando únicamente es divisible entre él mismo y la unidad.
+   * Comprueba si un nÃºmero entero positivo es primo o no. Un nÃºmero es primo
+   * cuando Ãºnicamente es divisible entre Ã©l mismo y la unidad.
    *
-   * @param n
-   *          un número entero positivo
-   * @return true si el número es primo
+   * @param n  un nÃºmero entero positivo
+   * @return true si el nÃºmero es primo
    * @return false no es primo
    */
   public static boolean esPrimo(int n) {
@@ -67,11 +64,10 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Comprueba si un número entero positivo es primo o no. Va aumentando el valor
+   * Comprueba si un nÃºmero entero positivo es primo o no. Va aumentando el valor
    * si no es primo hasta encontrar el siguiente primo.
    *
-   * @param x
-   *          un número entero positivo
+   * @param x un nÃºmero entero positivo
    * @return Devuelve el siguiente primo.
    */
   public static int siguientePrimo(int n) {
@@ -91,12 +87,10 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Calcula la potencia de un número.
+   * Calcula la potencia de un nÃºmero.
    *
-   * @param b,
-   *          base.
-   * @param e,
-   *          exponente.
+   * @param b, base.
+   * @param e,  exponente.
    * @return Devuelve la potencia.
    */
   public static int potencia(int b, int e) {
@@ -114,11 +108,10 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Cuenta el número de dígitos de un número.
+   * Cuenta el nÃºmero de dÃ­gitos de un nÃºmero.
    *
-   * @param x
-   *          un número entero.
-   * @return Devuelve la cantidad de dígitos.
+   * @param x un nÃºmero entero.
+   * @return Devuelve la cantidad de dÃ­gitos.
    */
   public static int digitos(int x) {
     int contador = 0;
@@ -130,14 +123,12 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Devuelve el dígito que está en la posición n de un número entero. Se empieza
+   * Devuelve el dÃ­gito que estÃ¡ en la posiciÃ³n n de un nÃºmero entero. Se empieza
    * contando por el 0 y de izquierda a derecha.
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Posición de la que queremos sacar el dígito
-   * @return Devuelve el dígito de x en la posición y.
+   * @param x un nÃºmero entero.
+   * @param y PosiciÃ³n de la que queremos sacar el dÃ­gito
+   * @return Devuelve el dÃ­gito de x en la posiciÃ³n y.
    */
   public static int digitoN(int x, int y) {
     int volteado = funciones.funcionesMatematicas.voltea(x);
@@ -153,11 +144,9 @@ public class funcionesMatematicas {
   /**
    * Quita la ultima cifra de la derecha del numero.
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Cantidad de número que queremos quitar.
-   * @return Devuelve el número con los dígitos quitados.
+   * @param x un nÃºmero entero.
+   * @param y Cantidad de nÃºmero que queremos quitar.
+   * @return Devuelve el nÃºmero con los dÃ­gitos quitados.
    */
   public static int quitaPorDetras(int x, int y) {
     for (int i = 0; i < y; i++) {
@@ -167,13 +156,11 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Le quita a un número n dígitos por detrás (por la izquierda).
+   * Le quita a un nÃºmero n dÃ­gitos por detrÃ¡s (por la izquierda).
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Cantidad de número que queremos quitar.
-   * @return Devuelve el número con los dígitos quitados.
+   * @param x un nÃºmero entero.
+   * @param y Cantidad de nÃºmero que queremos quitar.
+   * @return Devuelve el nÃºmero con los dÃ­gitos quitados.
    */
   public static int quitaPorDelante(int x, int y) {
     int volteado = funciones.funcionesMatematicas.voltea(x);
@@ -183,13 +170,11 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Añade un dígito por detrás a un número
+   * AÃ±ade un dÃ­gito por detrÃ¡s a un nÃºmero
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Dígito que queremos añadir.
-   * @return Devuelve el número con los dígitos añadidos.
+   * @param x un nÃºmero entero.
+   * @param y DÃ­gito que queremos aÃ±adir.
+   * @return Devuelve el nÃºmero con los dÃ­gitos aÃ±adidos.
    */
   public static int pegaPorDetras(int x, int y) {
     x *= 10;
@@ -198,13 +183,11 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Añade un dígito por delante a un número
+   * AÃ±ade un dÃ­gito por delante a un nÃºmero
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Dígito que queremos añadir.
-   * @return Devuelve el número con los dígitos añadidos.
+   * @param x un nÃºmero entero.
+   * @param y DÃ­gito que queremos aÃ±adir.
+   * @return Devuelve el nÃºmero con los dÃ­gitos aÃ±adidos.
    */
   public static int pegaPorDelante(int x, int y) {
     int volteado = funciones.funcionesMatematicas.voltea(x);
@@ -214,15 +197,13 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Da la posición de la primera ocurrencia de un dígito dentro de un número
+   * Da la posiciÃ³n de la primera ocurrencia de un dÃ­gito dentro de un nÃºmero
    * entero
    *
-   * @param x
-   *          un número entero.
-   * @param y
-   *          Dígito que queremos encontrar
-   * @return Devuelve la posición del número solicitado
-   * @return Devuelve -1 en caso erróneo.
+   * @param x un nÃºmero entero.
+   * @param y DÃ­gito que queremos encontrar
+   * @return Devuelve la posiciÃ³n del nÃºmero solicitado
+   * @return Devuelve -1 en caso errÃ³neo.
    */
   public static int posicionDeDigito(int x, int y) {
     x = funciones.funcionesMatematicas.voltea(x);
@@ -247,15 +228,12 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Toma como parámetros las posiciones inicial y final dentro de un número y
+   * Toma como parÃ¡metros las posiciones inicial y final dentro de un nÃºmero y
    * devuelve el trozo correspondiente.
    *
-   * @param x
-   *          la posición inicial
-   * @param y
-   *          la posición final
-   * @param numero
-   *          en si.
+   * @param x la posiciÃ³n inicial
+   * @param y la posiciÃ³n final
+   * @param numero en si.
    * @return Devuelve el trozo conseguido.
    */
   public static int trozoDeNumero(int x, int y, int numero) {
@@ -271,13 +249,11 @@ public class funcionesMatematicas {
   }
 
   /**
-   * Pega dos números para formar uno.
+   * Pega dos nÃºmeros para formar uno.
    *
-   * @param x
-   *          Primer número
-   * @param y
-   *          segundo número
-   * @return Devuelve el nuevo número juntado.
+   * @param x Primer nÃºmero
+   * @param y segundo nÃºmero
+   * @return Devuelve el nuevo nÃºmero juntado.
    */
   public static int juntaNumeros(int x, int y) {
     int longitud = funciones.funcionesMatematicas.digitos(x);
